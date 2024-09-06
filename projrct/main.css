@@ -1,0 +1,567 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+i{
+    color: brown;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.head1{
+    display: flex;
+    margin-top: 150px;
+    justify-content: space-around;
+}
+img{
+    backface-visibility: hidden;
+    border-radius: 20px;
+}
+span{
+    color: brown;
+}
+.head2{ 
+    color: yellow;
+}
+#fa-solid{
+    margin: 0;
+    color: white;
+}
+.head3{
+    background-color: brown;
+    margin-top: -5px;
+    justify-content: center;
+    padding: 30px;
+    
+}
+.head4{
+    text-align: center;
+    color: white;
+}
+.head5{
+    
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
+.head6{
+    text-align: center;
+    margin-top: 20px;
+}
+#head7{
+align-items: center;
+margin-top: 30px;
+margin-bottom: 50px;
+ border: 1px solid brown;
+ border-radius: 50%;
+ padding: 60px;
+ font-size: 40px;
+}
+.fa-camera{
+    margin-left: 105px;
+}
+.fa-cubes{
+    margin-left: 105px;
+}
+.fa-laptop{
+    margin-left: 105px;
+}
+.head8{
+    text-align: center;
+    margin-bottom: 30px; 
+}
+.head9{
+    text-align: center;
+}
+.head11{
+    border-bottom: 1px solid black;
+    color: black;
+}
+.headdiv{
+    display: flex;
+    justify-content: space-around;
+}
+.head13{
+    border: 2px solid;
+    padding: 20px;
+}
+.headdiv2{
+    display: flex;
+    margin-top: 50px;
+    padding: 0%;
+}
+.head15{
+    border-radius: 0;
+    height: 300px;
+    width: 1100px;
+}
+.head16{
+    background-color: brown;
+    justify-content: center;
+    padding: 30px;
+    
+}
+.head18{
+    background-color: whitesmoke;
+    justify-content: center;
+    padding: 30px;
+}
+.head19{
+    display: flex;
+}
+.head20{
+    text-align: center;
+    margin-top: 30px;
+    transition-property: all;
+    transition-duration: 1.2s;
+}
+.head21{
+
+    text-align: center;
+    color: brown;
+    transition-property: all;
+    transition-duration: 1.2s;
+
+}
+.head20:hover{
+   transform: scale(1.2);
+    cursor: pointer;
+    color: BROWN;
+}
+.head21:hover{
+  border-bottom: 5px solid brown;
+  margin: auto;
+  transform: scale(1.2);
+  border-radius: 5px;
+  width: 350px;
+}
+.head23{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.head24{
+    border-radius: 0%;
+}
+.head25{
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+}
+.head27{
+    background-color: brown;
+    padding: 80px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+
+    margin-top: -4px;
+}
+.head26{
+    color: yellow;
+    text-align: center;
+    border: 1px solid yellow;
+    padding: 10px;
+    width: 200px;
+}
+.head29{
+    text-align: center;
+    color: brown;
+    margin-top: 50px;
+}
+
+.HEAD30{
+    color: black;
+}
+.head33{
+    text-align: center;
+    margin-top: 50px;
+}
+.head32{
+    text-align: center;
+    margin-top: 30px;
+}
+.head34{
+    color: black;
+    border-bottom:  1px solid black;
+}
+.head35{
+    border-radius: 0%;
+}
+.head36{
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+}
+.headdiv3{
+    display: flex;
+    justify-content: space-around;
+}
+.headdiv4{
+    display: flex;
+    justify-content: space-around;
+    gap: 1em;
+}
+.head37{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-bottom: 80px;
+    margin-top: 30px;
+}
+.head38{
+    color: transparent;
+    border-radius: 50%;
+    padding: 4px;
+    height: 10px;
+    width: 10px;
+    border: 1px solid brown;
+    background-color: brown;
+}
+.head39{
+    color: transparent;
+    border-radius: 50%;
+    padding: 4px;
+    height: 10px;
+    width: 10px;
+    border: 1px solid brown;
+}
+.headdiv5{
+    
+    display: flex;
+    margin-top: 100px;
+    padding: 0%;
+}
+.head41{
+    
+    color: transparent;
+    border-radius: 50%;
+    padding: 4px;
+    height: 10px;
+    width: 10px;
+    border: 1px solid yellow;
+    background-color: white;
+}
+.head40{
+    
+    color: transparent;
+    border-radius: 50%;
+    padding: 4px;
+    height: 10px;
+    width: 10px;
+    border: 1px solid yellow;
+    background-color: yellow;
+}
+#demo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    ;
+    color: white;
+    background-color: brown;
+    list-style: square;
+    width: 200px;
+    margin-left: 50px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+.head42{
+    display: flex;
+    gap: 1em;
+    margin-top: 30px;
+}
+.headdiv7{
+    display: flex;
+    margin-top: -5px;
+}
+.head43{
+    text-align: center;
+    color: white;
+}
+.head44{
+color: transparent;
+border: 2px solid yellow;
+padding: 10px;
+}
+.head45{
+    background-color: yellow;
+    border: 2px solid yellow;
+    font-style: italic;
+    padding: 10px;
+}
+.head48{
+    padding-left: 80px;
+    justify-content: center;
+    background-color: brown;
+}
+.head49{
+    color: transparent;
+}
+.head46{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 70px;
+}
+.fa-car{
+    color: white;
+    margin-left: 350px;
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+.java{
+    color: brown;
+}
+.head50{
+    text-align: center;
+    margin-top: 50px;
+}
+.head52{
+    text-align: center;
+}
+.head54{
+    text-align: center;
+    margin-top: 50px;
+}
+.fa-location{
+    color: black;
+    margin-left: 140px;
+}
+.fa-phone{
+    color: black;
+    margin-left: 70px;
+}
+.fa-envelope{
+    color: black;
+    margin-left: 125px;
+}
+.head51{
+    border-bottom: 3px solid brown;
+    background-color: whitesmoke;
+    padding: 20px;
+    margin-top: 100px;
+
+}
+.head53{
+    margin-bottom: 30px;
+    border-bottom: 2px solid;
+    margin-top: 2opx;
+    color: black;
+}
+.head55{
+    display: flex ;
+    justify-content: center;
+    gap: 1em;
+}
+.head56{
+    border-radius: 50%;
+    color: white;
+    background-color: grey;
+    width: 50px;
+    font-size: 20px;
+    text-align: center;
+    height: 40PX;
+    width: 40px;
+    padding: 4px;
+}
+.head58{
+    text-align: center;
+}
+.head57{
+    text-align: center;
+}
+.head58{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.head59{
+    background-color: whitesmoke;
+padding: 20px;
+margin-top: 70px;
+}
+.head60{
+    padding: 10px 28px;
+    
+}
+.head61{
+    padding: 10px 28px;
+}
+.head62{
+    padding: 100px 145px;
+    margin-top: 15px;
+}
+.head63{
+    padding: 5px;
+    border: 1px solid brown;
+    color:white;
+    background-color: brown;
+    text-align: center;
+    width: 100px;
+    font-size: 10px;
+  margin-left: 365px;
+  margin-top: 10px;
+}
+.headdiv8{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+.head65{
+    margin-top: 70px;
+}
+.fa-globe{
+    border: 1px solid brown;
+    background-color: brown;
+    color: white;
+    padding: 8px;
+}
+.fa-youtube{
+    border: 1px solid brown;
+    background-color: brown;
+    color: white;
+    padding: 8px;
+}
+.fa-instagram{
+    border: 1px solid brown;
+    background-color: brown;
+    color: white;
+    padding: 8px;
+}
+.fa-twitter{
+    border: 1px solid brown;
+    background-color: brown;
+    color: white;
+    padding: 8px;
+}
+.fa-television{
+    border: 1px solid brown;
+    background-color: brown;
+    color: white;
+    padding: 8px;
+}
+.headdiv9{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 90px;
+}
+.head67{
+    color: white;
+    background-color: brown;
+    padding: 10px;
+}
+@media  (max-width:900px) {
+    .head1{
+        flex-direction: column;
+        display: flex;
+        margin: 20PX;
+        gap: 5em;
+    }
+    .java{
+        color: brown;
+        font-weight: lighter;
+        margin-left: 30px;
+    }
+    .headdiv{
+        flex-direction: column;
+    }
+    .headdiv2{
+        flex-direction: column;
+
+    }
+     .head15{
+        width: 400px;
+        transition-property: none;
+        transform: none;
+    }
+    .head16{
+        margin-top: -10px;
+    }
+    .head19{
+        flex-direction: column;
+    }
+    .head23{
+        flex-direction: column;
+        margin-left: 45px;
+       gap: 0;
+    }
+    .head25{
+        flex-direction: column;
+        margin-left: 45px;
+    }
+    .headdiv4{
+        flex-direction: column;
+    }
+    .headdiv2{
+        flex-direction: column;
+    }
+    .headdiv7{
+        flex-direction: column;
+    }
+    .head46{
+        flex-direction: column;
+    }
+    .head43{
+        text-align: center;
+    }
+    .head55{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .headdiv8{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .head62{
+        padding: 80px;
+    }
+    .head61{
+        padding: 10px  80px;
+    }
+    .head60{
+        padding: 10px 80px;
+    }
+    .head63{
+          margin-left:  234px;
+    }
+    .fa-car{
+        color: black;
+        margin-left: 120px;
+    }
+  .head43{
+    margin-left: -60px;
+  }
+  .head46{
+    margin-left: -60px;
+  }
+  .head15{
+    width: 390px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
